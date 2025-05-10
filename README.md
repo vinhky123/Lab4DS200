@@ -46,6 +46,7 @@ python producer.py
 - **Producer (producer.py)**:
 
   - Loads CIFAR-10 dataset
+  - Do some basic preprocessing
   - Sends images and labels to Kafka topics
   - Separates training and testing data
 
@@ -54,12 +55,3 @@ python producer.py
   - Implements a CNN model using TensorFlow
   - Trains the model on batches of data
   - Evaluates model performance on test data
-
-## Model Architecture
-
-The model is a simple CNN with the following layers:
-
-- 3 Convolutional layers with ReLU activation
-- 2 MaxPooling layers
-- 2 Dense layers
-- Output layer with 10 classes (CIFAR-10)
