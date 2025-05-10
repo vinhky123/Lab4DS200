@@ -1,12 +1,6 @@
-# Distributed Machine Learning with Kafka and TensorFlow
+# Lab 4 DS200
 
-This project demonstrates a distributed machine learning system using Kafka as a message broker and TensorFlow for model training. The system processes the CIFAR-10 dataset in a distributed manner.
-
-## Prerequisites
-
-- Python 3.8+
-- Apache Kafka
-- Java 8+ (required for Kafka)
+This is my repo for lab 4 of course DS2000 Big data for my study in UIT
 
 ## Installation
 
@@ -69,10 +63,3 @@ The model is a simple CNN with the following layers:
 - 2 MaxPooling layers
 - 2 Dense layers
 - Output layer with 10 classes (CIFAR-10)
-
-## Notes
-
-- The system uses batch processing to train the model
-- Training and testing are performed in separate threads
-- The model is trained incrementally as data arrives
-- Test accuracy is reported periodically
